@@ -55,9 +55,13 @@ body {
 }
 
 [class *= "__container"] {
-    min-width: 1540px;
+    max-width: 1540px;
     margin: 0px auto;
-    padding: 0px 380px;
+    padding: 0px 180px;
+}
+
+.header {
+    background-color: #141024;
 }
 
 .header__container {
@@ -65,7 +69,6 @@ body {
     padding: 0px 100px;
     min-height: 118px;
     align-items: center;
-    background-color: #141024;
 }
 
 .header__logo {
@@ -127,12 +130,15 @@ body {
 
 /*---------------------------------------------*/
 
+.description {
+    background-color: #141024;
+}
+
 .description__container {
     display: flex;
     align-items: center;
     position: relative;
-    padding: 0px 273px 0px 380px;
-    background-color: #141024;
+    padding: 0px 90px 0px 90px;
 }
 
 .description__content {
@@ -171,4 +177,44 @@ body {
 
 .block-text__button {
     margin-top: 50px;
+}
+
+/*---------------------------------------------*/
+
+.statistics__container {}
+
+.statistics__content {}
+
+.statistics__block-text {}
+
+.statistics-block-text__text {
+    max-width: 655px;
+    margin-top: 120px;
+    color: #000;
+    font-weight: 400;
+}
+
+.statistics-block-text__text span {
+    font-weight: 800;
+}
+
+.statistics__body {
+    display: flex;
+    margin-top: 60px;
+}
+
+.statistics__item {
+    margin-right: 40px;
+}
+
+.statistics__title {
+    color: #D52027;
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.statistics__text {
+    font-size: 18px;
+    max-width: 260px;
+    margin-top: 15px;
 }
